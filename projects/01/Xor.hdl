@@ -14,4 +14,10 @@ CHIP Xor {
 
     PARTS:
     // Put your code here:
+    // equation nota.b + a.notb
+    Not(in=a, out=nota);
+    Not(in=b, out=notb);
+    And(a=nota, b=b, out=c1);
+    And(a=a, b=notb, out=c2);
+    Or(a=c1, b=c2, out=out);
 }
