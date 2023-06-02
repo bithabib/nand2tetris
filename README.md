@@ -16,4 +16,4 @@ chmod +x HardwareSimulator.sh
 # Now run simulator
 ./HardwareSimulator.sh
 ````
-### 3. 
+### 3. Now you will see and interface where you can upload your hdl file and test file 
